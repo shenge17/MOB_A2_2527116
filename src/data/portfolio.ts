@@ -42,39 +42,41 @@ export const DEFAULT_PROFILE: Profile = {
 };
 
 // ---------------------------------------------------------------------------
-// TODO(student): replace EVERY placeholder below with your REAL details.
-// The assignment requires genuine education and genuine projects.
 // ---------------------------------------------------------------------------
 export const EDUCATION: EducationEntry[] = [
   {
     id: 'e1',
-    period: '[ADD YEARS, e.g. 2025 – present]',
-    title: 'Computer Science (Bachelor)',
+    period: '2025 – present',
+    title: 'Bachelor in Computer Science (Year 3)',
     place: "Institut d'Enseignement Supérieur de Ruhengeri (INES-Ruhengeri)",
-    note: '[ADD one line: current year or focus]',
+    note: 'Studying software development, including mobile application development.',
   },
   {
     id: 'e2',
-    period: '[ADD YEARS]',
-    title: '[ADD your previous school, course or certificate]',
-    place: '[ADD institution]',
-    note: '[ADD one line]',
+    period: '2020 – 2023',
+    title: 'Advanced Level, PCB (Physics, Chemistry, Biology)',
+    place: 'École des Sciences',
+    note: 'Science combination; completed a system design project.',
   },
 ];
 
 export const PROJECTS: Project[] = [
   {
     id: 'p1',
-    title: '[ADD PROJECT 1 TITLE]',
-    problem: '[ADD the problem this project solved]',
-    contribution: '[ADD what YOU personally did]',
-    technologies: ['[ADD technology]', '[ADD technology]'],
+    title: 'Desktop application project',
+    problem:
+      'A desktop application built to manage school information in a more organised way than paper records.',
+    contribution:
+      'I worked on this desktop application as a student project and learned how to turn a school need into a working program.',
+    technologies: ['Desktop application', 'School management'],
   },
   {
     id: 'p2',
-    title: '[ADD PROJECT 2 TITLE]',
-    problem: '[ADD the problem this project solved]',
-    contribution: '[ADD what YOU personally did]',
-    technologies: ['[ADD technology]', '[ADD technology]'],
+    title: 'School management system design',
+    problem:
+      'A system design for a school management system, completed at École des Sciences, to plan how school data and processes should be organised.',
+    contribution:
+      'I completed the system design for this school management system, planning how its parts fit together before building.',
+    technologies: ['System design', 'School management'],
   },
 ];

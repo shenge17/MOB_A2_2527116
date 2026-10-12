@@ -29,6 +29,12 @@
         }
       ],
       "expo-font"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "0655ab9b-0004-47a6-800d-25b6503ffb41"
+      }
+    },
+    "owner": "appolineshenge"
   }
 }
