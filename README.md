@@ -49,8 +49,8 @@ The `preview` profile in `eas.json` produces an installable `.apk`.
 
 ## Test information
 
-- Tested device: **[ADD phone model]**
-- Android version: **[ADD Android version]**
+- Tested device: **Tecno Spark 8**
+- Android version: **Android 11**
 - Final commit hash: **[ADD after final commit: git rev-parse HEAD]**
 - Release link: https://github.com/shenge17/MOB_A2_2527116/releases/tag/v1.0.0
 - APK link: **[ADD link to MOB_A2_2527116.apk on the release]**
